@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "example.myapp.helloworld.grpc";
+option java_outer_classname = "HelloEmployeeProto";
+
+package helloworld;
+
+message employee {
+    string name = 1;
+    string id=2;
+}
+
+
